@@ -1,0 +1,6 @@
+.idea
+.php-cs-fixer.cache
+src/data/profile_photos/*
+src/data/temp/*
+vendor/
+/composer.lock
