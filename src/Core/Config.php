@@ -14,13 +14,14 @@ class Config
 /*  mail ругается на использование стороннего приложения профилем, 
     неообходимо Создайние в настройках аккаунта на сайте Mail.ru специального пароля, 
     уникального для каждого стороннего приложения
-    без него поста может не приходить (пароль не делал) */
+    без него поxта приходить (необходимо ввсти данные своей почты) */
+    
     public const SMTP_SRV = 'smtp.mail.ru';
-    public const EMAIL_USERNAME = 'den74@inbox.ru';
-    public const EMAIL_PASSWORD = 'zdSW3eakd4Qx5MzcVpHm';
+    public const EMAIL_USERNAME = 'main@mail';
+    public const EMAIL_PASSWORD = 'password application';
     public const SMTP_SECURE = 'ssl';
     public const SMTP_PORT = 465;
-    public const EMAIL_SENDER = 'den74@inbox.ru';
+    public const EMAIL_SENDER = 'main@mail';
     public const EMAIL_SENDER_NAME = 'Messenger sf-pr-33';
 
     // настройки вебсокета
